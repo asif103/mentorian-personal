@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+.menu-nav{
+    background-color: lightgoldenrodyellow;
+    padding:20px 0;
+}
+.menu-ul{
+    margin-left: 60%;
+}
+.menu-ul .menu-li{
+    display: inline-block;
+    list-style: none;
+}
+.menu-link{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #282828;
+}
+.menu-link:hover{
+    color: tomato;
+}
+.important-text{
+    color: tomato;
+}
+.half{
+    width: 35%;
+    padding: 5%;
+    float: left;
+}
+#about{
+    height:70vh;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.description{
+    font-size: 1.2rem;
+    font-family: 'Itim', cursive;
+    
+}
+.profile{
+    height: 400px;
+    width: auto;
+}
+#more-about{
+    height:70vh;
+    background-image: url(images/bg-1.png);
+    background-repeat:no-repeat;
+    background-position: top right ;
+}
+#skills{
+    padding: 50px 100px;
+}
+.html{
+    margin: 1% 0;
+    padding: 1% 1%;
+    background-color: tomato;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 90%;
+}
+.css{
+    margin: 1% 0;
+    padding: 1% 1%;
+    background-color: tomato;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 70%;
+}
+.bootstrap{
+    margin: 1% 0;
+    padding: 1% 1%;
+    background-color: tomato;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 80%;
+}
+.git{
+    margin: 1% 0;
+    padding: 1% 1%;
+    background-color: tomato;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 55%;
+}
+
+.heading{
+    /* border-bottom: 5px solid turquoise; */
+    border-bottom: 7px solid;
+    border-image: linear-gradient(30deg,  turquoise, tomato);
+    border-image-slice:1;
+    margin-bottom: 50px;
+    padding: 30px 0;
+    font-size: 40px;
+
+}
+
+#portfolio{
+    padding: 50px 100px;
+}
+.portfolio-image img{
+    width: 70%;
+}
+.portfolio-image{
+    text-align: center;
+}
+.portfolio-content{
+    text-align: center;
+}
+.portfolio-card{
+    width: 30%;
+    margin: 30px 10px;
+    background-color: lemonchiffon;
+    padding: 10px;
+    border: 3px solid;
+    border-image: linear-gradient(30deg,  turquoise, tomato);
+    border-image-slice:1;
+    transition: all 0.3s ease-in-out;
+    
+}
+.portfolio-card:hover{
+    box-shadow: 5px 5px 5px lightslategrey;
+}
+
+.portfolio-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-button{
+    width: 200px;
+    height: 50px;
+    margin: 20px 0;
+    background-image: linear-gradient(30deg,  turquoise, tomato);
+    transition: all 0.3s ease-in-out;
+}
+.portfolio-button:hover{
+    background-image: linear-gradient(30deg,tomato, turquoise);
+    
+}
